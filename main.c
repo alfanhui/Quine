@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(){char*s="#include <stdio.h>\nint main(){char*s=for(int i = 0;i<37;i++){printf(\"%c\",s[i]);}printf(\"%c\", \'\"\');for(int i = 0; i < 219; i++){printf(\"%c\", s[i]);}for(int i = 37;i < 219; i++){printf(\"%c\", s[i]);}return 0;}\"";for(int i = 0; i <37;i++){printf("%c", s[i]);}printf("%c", '\"');for(int i= 0; i < 219; i++){if(s[i]=='\n'){printf("%s", "\\n");}else{printf("%c", s[i]);}}for(int i = 37; i < 219; i++){printf("%c", s[i]);}return 0;}
